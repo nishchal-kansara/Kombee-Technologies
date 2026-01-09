@@ -1,0 +1,11 @@
+langchain
+langchain-core
+langchain-google-genai
+langgraph
+langgraph-checkpoint
+ddgs
+python-dotenv
+fastapi
+uvicorn
+streamlit
+requests
