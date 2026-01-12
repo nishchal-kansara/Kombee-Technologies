@@ -138,6 +138,30 @@ Gujarat Shops and Establishments Act, Minimum Wages Act, Payment of Wages Act, E
 python backend/ingest_preload.py
 ```
 
+---
+
+Folder Structure
+
+```
+private_chatgpt_rag
+│
+│── data
+│   │── company_docs.txt        # preloaded docs
+│
+│── uploads                     # user uploads
+│
+│── backend
+│   │── ingest_preload.py
+│   │── ingest_upload.py
+│   │── rag.py
+│
+│── ui
+│   │── app.py
+│
+│── requirements.txt
+│── .env
+```
+
 ```
 streamlit run ui\app.py
 ```
